@@ -1,10 +1,14 @@
 <pre>                            
-██████   █████  ██ ██      ██    ██          ██  █████  ██████  ███    ███ 
-██   ██ ██   ██ ██ ██       ██  ██           ██ ██   ██ ██   ██ ████  ████ 
-██   ██ ███████ ██ ██        ████            ██ ███████ ██████  ██ ████ ██ 
-██   ██ ██   ██ ██ ██         ██        ██   ██ ██   ██ ██   ██ ██  ██  ██ 
-██████  ██   ██ ██ ███████    ██         █████  ██   ██ ██   ██ ██      ██ 
-                                                                           
+▓█████▄  ▄▄▄       ██▓ ██▓   ▓██   ██▓    ▄▄▄██▀▀▀▄▄▄       ██▀███   ███▄ ▄███▓
+▒██▀ ██▌▒████▄    ▓██▒▓██▒    ▒██  ██▒      ▒██  ▒████▄    ▓██ ▒ ██▒▓██▒▀█▀ ██▒
+░██   █▌▒██  ▀█▄  ▒██▒▒██░     ▒██ ██░      ░██  ▒██  ▀█▄  ▓██ ░▄█ ▒▓██    ▓██░
+░▓█▄   ▌░██▄▄▄▄██ ░██░▒██░     ░ ▐██▓░   ▓██▄██▓ ░██▄▄▄▄██ ▒██▀▀█▄  ▒██    ▒██ 
+░▒████▓  ▓█   ▓██▒░██░░██████▒ ░ ██▒▓░    ▓███▒   ▓█   ▓██▒░██▓ ▒██▒▒██▒   ░██▒
+ ▒▒▓  ▒  ▒▒   ▓▒█░░▓  ░ ▒░▓  ░  ██▒▒▒     ▒▓▒▒░   ▒▒   ▓▒█░░ ▒▓ ░▒▓░░ ▒░   ░  ░
+ ░ ▒  ▒   ▒   ▒▒ ░ ▒ ░░ ░ ▒  ░▓██ ░▒░     ▒ ░▒░    ▒   ▒▒ ░  ░▒ ░ ▒░░  ░      ░
+ ░ ░  ░   ░   ▒    ▒ ░  ░ ░   ▒ ▒ ░░      ░ ░ ░    ░   ▒     ░░   ░ ░      ░   
+   ░          ░  ░ ░      ░  ░░ ░         ░   ░        ░  ░   ░            ░   
+ ░                            ░ ░
 </pre>                                                                           
                              
 # FAQ
@@ -19,7 +23,7 @@ A repository with a daily updated list of JARM fingerprints from systems activel
 A csv and a json file for whichever fits your usecase.
 
 ## What do the files contain?
-Both files contain the JARM fingerprint, the source IP, the source port (only 443 and 8443 are covered currently), and the timestamp of when the fingerprint was obtained.
+Both files contain the JARM fingerprint, the source IP, the source port (only 443 and 8443 are covered currently), and the timestamp of when the fingerprint was obtained. 
 
 The csv file contains the following and is formatted as below:
 
@@ -42,7 +46,7 @@ The json file contains the following and is formatted as seen below:
     {
         "jarm": "2ad2ad16d00000022c2ad2ad2ad2adc048c697e0d6d0c91c6bf49b0695f45c",
         "src_ip": "5.6.7.8",
-        "src_port": "443",
+        "src_port": "8443",
         "timestamp": "2022-09-26_19:48:13"
     }
 ]
