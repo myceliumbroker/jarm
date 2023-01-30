@@ -28,9 +28,10 @@ Both files contain the JARM fingerprint, the source IP, the source port (443, 44
 The csv file contains the following and is formatted as below:
 
 <pre>
-jarm,src_ip,src_port,timestamp
-jarmfingerprintvalue,1.2.3.4,443,2022-09-26_19:24:57
-jarmfingerprintvalue,5.6.7.8,8443,2022-11-05_09:22:53
+jarm,src_ip,src_port,country,known_c2,timestamp
+07d10d11d21d21d07c07d10d07d21d7f94927a800698f72ad8146900120abe,1.2.3.4,443,FR,n/a,2022-09-26_19:24:57
+2ad2ad16d00000022c2ad2ad2ad2adc048c697e0d6d0c91c6bf49b0695f45c,5.6.7.8,1443,HK,n/a,2022-09-26_19:48:13
+3fd3fd0003fd3fd21c42d42d000000307ee0eb468e9fdb5cfcd698a80a67ef,9.10.11.12,2443,CN,n/a,2022-09-26_20:11:28
 </pre>
 
 The json file contains the following and is formatted as seen below:
@@ -41,13 +42,31 @@ The json file contains the following and is formatted as seen below:
         "jarm": "07d10d11d21d21d07c07d10d07d21d7f94927a800698f72ad8146900120abe",
         "src_ip": "1.2.3.4",
         "src_port": "443",
+        "country": "FR",
+        "known_c2": "n/a",
         "timestamp": "2022-09-26_19:24:57"
     },
     {
         "jarm": "2ad2ad16d00000022c2ad2ad2ad2adc048c697e0d6d0c91c6bf49b0695f45c",
         "src_ip": "5.6.7.8",
-        "src_port": "8443",
+        "src_port": "1443",
+        "country": "HK",
+        "known_c2": "n/a",
         "timestamp": "2022-09-26_19:48:13"
-    }
+    },
+    {
+        "jarm": "3fd3fd0003fd3fd21c42d42d000000307ee0eb468e9fdb5cfcd698a80a67ef",
+        "src_ip": "9.10.11.12",
+        "src_port": "2443",
+        "country": "CN",
+        "known_c2": "n/a",
+        "timestamp": "2022-09-26_20:11:28"
+    },
 ]
 </pre>
+
+## How often is this updated?
+
+Daily. 
+
+The list of matching C2 JARM fingerprints is updated slowly over time.
