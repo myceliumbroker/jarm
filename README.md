@@ -17,7 +17,9 @@
 A repository with a daily updated list of JARM fingerprints from systems actively attempting to log in to other systems via ssh on port 22.
 
 ## Ok, what is JARM?
-[Salesforce page on JARM](https://github.com/salesforce/jarm)
+JARM TLS fingerprinting is a technique that can identify TLS servers based on their unique handshake characteristics. By sending different probes and analyzing the server responses, JARM can determine specific details about the server such as the SSL/TLS version, the cipher suites used, and the presence of specific extensions. 
+
+More information @ [Salesforce page on JARM](https://github.com/salesforce/jarm)
 
 ## What files can I find here?
 A csv and a json file for whichever fits your usecase.
