@@ -75,3 +75,7 @@ The json file contains the following and is formatted as seen below:
 Daily. 
 
 The list of matching C2 JARM fingerprints is updated slowly over time.
+
+## Thanks
+
+Thanks to [cedowens](https://github.com/cedowens) for his initial [list](https://github.com/cedowens/C2-JARM).
