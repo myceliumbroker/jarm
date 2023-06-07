@@ -25,7 +25,9 @@ More information @ [Salesforce page on JARM](https://github.com/salesforce/jarm)
 A csv and a json file for whichever fits your usecase.
 
 ## What do the files contain?
-Both files contain the JARM fingerprint, the source IP, the source port (443, 444, 1443, 2443, 3443, 4443, 4444, 5443, 6443, 7443, 8443, and/or 9443), and the timestamp of when the fingerprint was obtained. 
+Both files contain the JARM fingerprint, the source IP, the source port (443, 444, 1443, 2443, 3443, 4443, 4444, 5443, 6443, 7443, 8443, and/or 9443), the country, the AS number, the known C2 platform matching the JARM fingerprint, and the timestamp of when the fingerprint was obtained. 
+
+You think other ports should be added? Let me know. 
 
 The csv file contains the following and is formatted as below:
 
