@@ -14,7 +14,7 @@
 # FAQ
 
 ## What is this?
-A repository with a daily updated list of JARM fingerprints from systems actively attempting to log in to other systems via ssh on port 22.
+A repository with a list of JARM fingerprints from systems actively attempting to log in to other systems via ssh on port 22.
 
 ## Ok, what is JARM?
 JARM TLS fingerprinting is a technique that can identify TLS servers based on their unique handshake characteristics. By sending different probes and analyzing the server responses, JARM can determine specific details about the server such as the SSL/TLS version, the cipher suites used, and the presence of specific extensions. 
@@ -73,10 +73,7 @@ The json file contains the following and is formatted as seen below:
 </pre>
 
 ## How often is this updated?
-
-Daily. 
-
-The list of matching C2 JARM fingerprints is updated slowly over time.
+This is currently not getting updated. Perhaps in time.
 
 ## Thanks
 
