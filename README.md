@@ -30,7 +30,7 @@ The json file contains the following and is formatted as seen below:
 <pre>
 [
     {
-        "jarm": "07d10d11d21d21d07c07d10d07d21d7f94927a800698f72ad8146900120abe",
+        "jarm": "29d29d00029d29d00029d29d29d29da8f16e8f0a21d89b06fef5080cbd1b2a",
         "src_ip": "1.2.3.4",
         "src_port": "443",
         "country": "FR",
