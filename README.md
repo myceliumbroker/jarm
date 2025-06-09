@@ -8,6 +8,10 @@ JARM TLS fingerprinting is a technique that can identify TLS servers based on th
 
 More information @ [Salesforce page on JARM](https://github.com/salesforce/jarm)
 
+## What's the confidence level?
+
+Do not rely solely on the JARM hashes within this repo for conclusive decisions.
+
 ## What files can I find here?
 A csv and a json file for whichever fits your usecase.
 
